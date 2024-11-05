@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>Light and Dark Mode</h1>
+
+    <button id="btn1">Change Mode</button>
+<br>
+
+<h1>MouseOver</h1>
+
+<div style="border: 1px solid black; width: 100px; height:100px;" id="mouseover" onmouseover="mouse()">
+    this is a mouseover test
+</div>
+
+<br>
+ <h1>big img</h1>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="width: 50px;" src="./smily.jpg" alt="" srcset="">
+<br>
+<h1>Onkey</h1>
+Enter the first name <input type="text" id="firstname" onkeyup="keyup()">
+<p>My First Name is : <span id="sp"></span></p>
+
+<h1>Form</h1>
+
+
+<form action="">
+    <input type="text" id="username" name="username" placeholder="Enter Your Username">
+    <input type="text" id="password" name="password" placeholder="Enter your password">
+</form>
+
+
+
+    <script src="./task.js"></script>
+</body>
+</html>

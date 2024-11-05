@@ -1,0 +1,73 @@
+.grid-container{
+    height: 500px;
+    background-color: black;
+    color: rgb(31, 132, 220);
+    display: grid;
+    gap: 5px;
+
+    grid-template-areas:
+     'header header header header'
+     'main main main main'
+     'menu menu menu menu'
+     'Footer Footer Footer Footer';
+
+}
+
+.grid-container > div{
+    background-color: antiquewhite;
+}
+
+.header{
+    grid-area: header ;
+
+}
+
+.menu{
+    grid-area: menu ;
+}
+
+.right{
+    grid-area: main ;
+
+}
+
+.footer{
+    grid-area: Footer ;
+}
+
+/* Example CSS */
+
+.container{
+    height: 500px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+
+    grid-template-areas: 
+    'Box1 . Box2'
+    '.    .    .'
+    'Box3 . Box4' ;
+}
+
+.container > div{
+    background-color: brown;
+}
+
+.container > #box1 {
+    grid-area: Box1;
+
+}
+
+.container > #box2{
+    grid-area: box3;
+}
+
+.container > #box3{
+    grid-area: Box3;
+}
+
+.container > #box4{
+    grid-area: Box4;
+}

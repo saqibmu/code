@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions - Continue</title>
+    <style>
+        .static{
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            background-color: aqua;
+
+            top: 10px;
+            bottom: 20px;
+            left: 30px;
+            right: 50px;
+            position: static;
+        }
+
+        .relative{
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            background-color: aqua;
+            text-align: center;
+            color: blue;
+
+            top: 10px;
+            left: 50px;
+            position: relative;
+             }
+
+             .relative-1{
+               color: rgb(173, 118, 47);
+               margin-top: 0%;
+                
+             }
+
+        .fixed{
+            height: 150px;
+            width: 100px;
+            border: 2px solid black;
+
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: aqua;
+
+        }
+
+        .parent{
+            height: 200px;
+            width: 200px;
+            border: 2px solid blue;
+            position: relative;
+
+
+        }
+
+        .child{
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgb(22, 22, 31);
+            background-color: aqua;
+            
+            position: absolute;
+            right: 50px;
+            top: 40px;
+        }
+
+            .sticky{
+                height: 110px;
+            width: 100px;
+            border: 2px solid rgb(22, 22, 31);
+            background-color: aqua;
+
+            position: sticky;
+            top: 0;
+            left: 200px;
+            z-index: 9;
+            }
+
+            body{
+                height: 5000px;
+            }
+
+            .box1{
+                height: 200px;
+                width: 200px;
+                border: 2px solid brown;
+                z-index: 5;
+            }
+
+            .box2{
+                height: 200px;
+                width: 200px;
+                border: 2px solid rgb(72, 27, 176);
+                z-index: 2;
+            }
+
+            .box3{
+                height: 200px;
+                width: 200px;
+                border: 2px solid rgb(76, 192, 37);
+                z-index: 4;
+            }
+
+           
+
+    </style>
+</head>
+<body>
+    <h1>Static</h1>
+    <div class="static">Static position mein move nahi karta</div>
+
+
+    <h1> Sticky </h1>
+    <div class="sticky">
+        <p>sticky tab tak move karta hai jab tak screen ka top nahi aata</p>
+    </div>
+
+    <h1>Relative</h1>
+    <div class="relative">
+        <p class="relative-1">relative mein move karta haii yeh box ab move kar raha haii</p>
+    </div>
+
+    <h1>Fixed</h1>
+    <div class="fixed">
+        
+        <p>fixed 1 hi jagah fix ho jata hai pori screen move karti hahi magar yeh fix hota hai</p>
+    </div>
+
+    <h1>Absolut (child) - Relative (parent)</h1>
+    <div class="parent">
+        <div class="child">position should be <b>Absolute</b> in <b>Child</b> and be <b>Relative</b> in <b>Parent</b></div>
+    </div>
+
+    <h1>Z-index</h1>
+    <h1>box1</h1>
+    <div class="box1"></div>
+    <h1>box2</h1>
+    <div class="box2"></div>
+    <h1>box3</h1>
+    <div class="box3"></div>
+
+    
+</body>
+</html>

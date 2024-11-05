@@ -1,0 +1,29 @@
+.align-heading, .align-body{
+    text-align: center;
+    color: yellowgreen;
+}
+
+/* .align-body{
+    text-align: center;
+} */
+
+.align-last-line{
+    text-align-last: right;
+}
+
+.color{ 
+    color: blue;
+}
+
+/* [text decoration properties sequence---line, color, style, thickness
+if you want to use all in one then the sequence is]
+
+or if you want to use one of them then use below method
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness */
+
+.text-decoration{
+    text-decoration: overline red wavy 5px;
+}

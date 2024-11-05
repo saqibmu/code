@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+
+    <style>
+        .border {
+            border: 2px solid blue;
+        }
+
+        .size {
+            height: 200px;
+            width: 200px;
+        }
+
+        .static {
+            height: 200px;
+            width: 200px;
+        }
+
+        .relative {
+            left: 200px;
+            position: relative;
+        }
+
+        .fixed {
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            right: 20px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Positions</h1>
+    <h1> Static-Default </h1>
+    <div class="static border"> default se static position hoti haii aur yeh move nahi kar sakti
+        is liye hamien pehle relative position lagana hota haii
+    </div>
+
+    <h1>border</h1>
+    <div class="border size"></div>
+
+    <h1>Relative Position</h1>
+    <div class="relative border size"> relative se hum isko kahin bhi move kar sakte hain
+        <b>e.g</b> hum isko center mein le aate hain
+    </div>
+
+    <h1>Fixed</h1>
+
+
+    <div class="border"> fixed se yeh faida hota haii ke hamara element move nahi karta
+        aur pori screen scroll hoti haii <b>e.g</b> aapne aksar chat button ko side pe dekha hoga
+        isi tarah whatsapp ka tap to bottom button aur iss tarah ke boht chalein example se
+        dekhte hain
+    </div>
+
+
+    <h1>Example of fixed</h1>
+
+    <div class="fixed border"> fixed </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

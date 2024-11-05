@@ -1,0 +1,85 @@
+.square {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+ 
+.border{ 
+    border-width: 2px; 
+    border-style: groove;
+    border-color: blue;
+
+    height: 200px;
+    width: 200px;
+}
+
+.padding{
+    border-width: 2px; 
+    border-style: groove;
+    border-color: blue;
+
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 300px;
+    padding-bottom: 400px;
+    
+}
+     
+    /* padding:top right bottom left  */
+
+.padding-tarteeb{ 
+    padding: 50px 100px 150px 200px;
+}
+
+ /* spacing ki tarteeb bhi bilkul padding jaisi hi haii*/
+  
+ .margin{
+    margin: 50px 200px 10px 200px;
+ }
+    
+        /* agar minus mein likheinge to shadow oper jayega */
+ .box-shadow{
+    box-shadow: 10px 10px 10px green;
+ }
+
+ .background{
+    background-color: aqua;
+
+ }
+
+ .image{
+    border: 100px solid aqua;
+
+    background-image: url(./abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif);
+    
+ }
+
+ /* <h1>background image repeat or no repeat ke liye</h1>
+ <p>background-repeat: no repeat</p>
+ <p>background-repeat: repeat</p>
+ 
+ <p>background-repeat: repeat-x</p>
+ <p>background-repeat: repeat-y</p>
+
+
+ <h1>background image position</h1>
+
+ <p>backgroud-position: right;</p>
+ <p>backgroud-position: center ;</p>
+ <p>backgroud-position: right top;</p>
+ <p>backgroud-position: right center;</p>
+ <p>backgroud-position: center bottom;</p>
+
+ <p>backgroud-position-x: right</p>
+ <p>backgroud-position-y: bottom</p>
+   */
+
+   .full-image{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+
+    background-image: url(./abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif);
+    background-size: 200px 200px;
+
+}

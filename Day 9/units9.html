@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Units </title>
+   <style>
+      /* yeh on page style karne ke liye haii */
+
+      .border {
+         border: 2px solid black;
+      }
+
+      .size {
+         height: 200px;
+         width: 200px;
+      }
+
+
+      .overflow {
+         overflow: scroll;
+         height: 100px;
+         width: 100px;
+      }
+
+      .em {
+         font-size: 10px;
+         height: 50em;
+         width: 50em;
+      }
+
+      /* html{
+            font-size: 5px;
+             } */
+      .rem {
+         height: 50rem;
+         width: 50rem;
+      }
+
+
+      .vh {
+         height: 75vh;
+         width: 75vh;
+      }
+
+      .vw {
+         height: 50vw;
+         width: 75vw;
+      }
+
+      .vh-vw {
+         height: 75vh;
+         width: 50vw;
+      }
+
+      .percentage {
+         height: 100%;
+         width: 50%;
+      }
+
+      .parent {
+         height: 500px;
+         width: 50%;
+
+      }
+
+      .child {
+         height: 50%;
+         width: 50%;
+      }
+   </style>
+</head>
+
+<body>
+   <h1> border </h1>
+   <div class="border size"> boder lene ke liye border ka attribute lein </div>
+
+   <h1>Over Flow</h1>
+
+   <div class="overflow border"> overflow wo hota haii jo kisi bhi box ya element se bahir aa raha ho to hum is se
+      scroll
+      bhi kar sakte hain aur bhi boht kuch e.g (visible and hidden)
+      <b>overflow</b> laga ke
+   </div>
+
+   <h1>Unit-EM</h1>
+   <div class="em border">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur consequatur qui rem eos
+      nostrum laborum excepturi quas, aliquam ullam, ex maxime neque dolore aperiam in veritatis, nihil a adipisci
+      magnam.
+      Laborum animi atque nobis quia eveniet? Beatae consequatur provident dicta, eos eum, voluptatem natus neque nemo
+      assumenda perspiciatis iste autem alias sed saepe amet delectus consequuntur quas. Sit, iste alias.
+      Et facilis inventore possimus sit rem deserunt accusantium! Iure esse non necessitatibus distinctio qui quos
+      mollitia molestias laudantium. Minima earum modi ex officiis neque voluptatem inventore repellendus assumenda,
+      aspernatur nemo!</div>
+
+
+   <h1>Unit-REM</h1>
+   <div class="rem border"></div>
+
+
+   <H1>UNIT-VH</H1>
+   <div class="vh border"> yeh unit screen ki height ke mutabiq measure karta hai </div>
+
+   <H1>UNIT-VW</H1>
+   <div class="vw border"> yeh unit screen ki width ke matabiq measure karta hai</div>
+
+   <h1>VH-VW</h1>
+   <div class="vh-vw border"> hum yeh dono unit ikathe bhi use kar sakte hain</div>
+
+   <h1> %-Percentage </h1>
+   <div class="percentage border"> yeh text ki percentage se measure karta hai</div>
+
+   <h1>Example of parent and child border</h1>
+
+   <div class="parent border">
+      <div class="child border"></div>
+
+
+   </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

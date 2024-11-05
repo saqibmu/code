@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Example</title>
+        <style>
+            *{
+                padding: 0%;
+                margin: 0%;
+            }
+
+            .layout_container{
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+
+                flex-wrap: wrap;
+            }
+
+            .header{
+                background-color: aquamarine;
+                /* height: 300px; */
+                flex: 100%;
+                justify-content: center;
+                align-items: center;
+
+                /* text-align: center;
+                font-size: x-large;*/
+            }
+
+            .navigation{
+                background-color: chartreuse;
+                flex-grow: ;
+                
+                /* height: 300px; */
+                /* font-size: x-large;
+                text-align: center; */
+            }
+
+            .aside{
+                background-color: darkseagreen;
+                flex-grow: 1;   
+            }
+
+            .footer{
+                background-color: rgb(12, 227, 156);
+                flex: 100%;
+            }
+
+            .content{
+                background-color: rgb(89, 89, 201);
+                flex-grow: 2;
+            }
+            .section{
+                background-color: rgb(85, 159, 12);
+                flex-grow: 2;
+                
+            }
+
+
+
+
+
+        </style>
+
+</head>
+<body>
+    <div class="layout_container">
+
+    <header class="header"> <b>Header</b> </header>
+     <!-- <div class="navigation"> <b>Navigation </b> </div> -->
+     
+
+
+
+    <aside class="aside"> <b>Aside </b> </aside>
+
+  
+
+   
+
+    <section class="section"> <b> Section </b> </section>
+
+    <div class="content"> <b>content</b> </div>
+
+    <footer class="footer"> <b>Footer</b> </footer>
+
+</div>
+
+
+
+
+    
+</body>
+</html>
